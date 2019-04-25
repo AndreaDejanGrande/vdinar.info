@@ -25,7 +25,7 @@
 ?></title>
 <meta charset="UTF-8">
 <?php if($jezik == "SH"): ?>
-<meta name="description" content="Me&#273;unarodno digitalno sredstvo za pla&#263;anje iz biv&#353;e Jugoslavije: po&#353;aljite i dobijte pare bez tre&#263;ih strana i sa najmanjim porezima na svijetu!">
+<meta name="description" content="Međunarodno digitalno sredstvo za plaćanje iz bivše Jugoslavije: pošaljite i dobijte pare bez trećih strana i sa najmanjim porezima na svijetu!">
 <meta name="keywords" content="Kriptovaluta, Digitalno sredstvo, Biv&#353;a Jugoslavija">
 <?php elseif($jezik == "EN"): ?>
 <meta name="description" content="International digital asset from former Yugoslavia: send and receive money without third parties and with the lowest fees around!">
