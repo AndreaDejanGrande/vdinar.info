@@ -1,0 +1,22 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="300" height="300">
+
+ <circle cx="150" cy="150" r="77" fill="#f48400" stroke="#dfdfdf" stroke-width="4" />
+
+ <polygon transform="translate(95, 100)" points="0,35 35,0 77,38 38,77" fill="rgba(0, 0, 0, 0.1)" fill-rule="evenodd" />
+ <polygon transform="translate(108, 100)" points="0,87 60,28 47,15 62,0 76,11 78,10 121,51 121,129 32,129" fill="rgba(0, 0, 0, 0.1)" fill-rule="evenodd" />
+
+ <polygon transform="translate(95, 100)" points="0,35 35,0 50,15 15,50" fill="white" fill-rule="evenodd" />
+ <polygon transform="translate(155, 100)" points="45,30 15,0 0,15 40,55" fill="white" fill-rule="evenodd" />
+
+ <polygon transform="translate(105, 110)" points="0,10 10,0 87,77 77,87" fill="white" fill-rule="evenodd" />
+ <polygon transform="translate(108, 110)" points="87,10 77,0 0,77 10,87" fill="white" fill-rule="evenodd" />
+
+ <circle cx="150" cy="150" r="99" fill="transparent" stroke="white" stroke-width="40" />
+
+ <polygon transform="translate(0, 0)" points="0,50 50,0 50,25 125,25 125,75 50,75 50,100" fill="#f48400" fill-rule="evenodd" />
+ <polygon transform="translate(175, 200)" points="125,50 75,0 75,25 0,25 0,75 75,75 75,100" fill="#f48400" fill-rule="evenodd" />
+
+ <circle cx="150" cy="150" r="89" fill="transparent" stroke="white" stroke-width="20" />
+
+</svg>

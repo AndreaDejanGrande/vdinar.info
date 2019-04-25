@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+ <url>
+  <loc>https://www.vdinar.info/</loc>
+  <lastmod>2018-09-20T20:00:00+00:00</lastmod>
+  <changefreq>always</changefreq>
+  <priority>1.0</priority>
+  <image:image>
+   <image:loc>https://www.vdinar.info/slike/pregled560x292px.png</image:loc>
+   <image:title>vDinar - virtualni Dinar</image:title>
+   <image:caption>Pregledna slika virtualnog Dinara</image:caption>
+  </image:image>
+  <image:image>
+   <image:loc>https://www.vdinar.info/slike/logo320x80px.png</image:loc>
+   <image:title>vDinar - virtualni Dinar ikona</image:title>
+   <image:caption>Vrhovna ikona virtualnog Dinara</image:caption>
+  </image:image>
+ </url>
+ <url>
+  <loc>https://www.vdinar.info/en/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.9</priority>
+ </url>
+ <url>
+  <loc>https://www.vdinar.info/it/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.8</priority>
+ </url>
+
+ <url>
+  <loc>https://www.vdinar.info/viki/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.9</priority>
+ </url>
+ <url>
+  <loc>https://www.vdinar.info/viki/vDinar</loc>
+  <changefreq>always</changefreq>
+  <priority>0.7</priority>
+ </url>
+ <url>
+  <loc>https://www.vdinar.info/viki/Svarog_rudar</loc>
+  <changefreq>always</changefreq>
+  <priority>0.6</priority>
+ </url>
+</urlset> 

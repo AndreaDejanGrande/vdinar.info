@@ -1,0 +1,1090 @@
+/*
+----------------------
+------ ELEMENTI ------
+----------------------
+*/
+
+html, body
+{
+  font-family: "Lucida Console", Monaco, monospace;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-size-adjust: none;
+}
+
+a:active,
+a:link,
+a:hover,
+a:visited
+{
+  color: initial;
+  text-decoration: none;
+}
+
+/*
+-----------------------
+------ ANIMACIJE ------
+-----------------------
+*/
+
+@-moz-keyframes animacijaPostotak
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 29px 0px;
+  }
+}
+
+@-o-keyframes animacijaPostotak
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 29px 0px;
+  }
+}
+
+@-webkit-keyframes animacijaPostotak
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 29px 0px;
+  }
+}
+
+@keyframes animacijaPostotak
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 29px 0px;
+  }
+}
+
+
+@-moz-keyframes animacijaPostotak2x
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 59px 0px;
+  }
+}
+
+@-o-keyframes animacijaPostotak2x
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 59px 0px;
+  }
+}
+
+@-webkit-keyframes animacijaPostotak2x
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 59px 0px;
+  }
+}
+
+@keyframes animacijaPostotak2x
+{
+  from
+  {
+    background-position: 0px 0px;
+  }
+  to
+  {
+    background-position: 59px 0px;
+  }
+}
+
+/*
+-------------------
+------ KLASE ------
+-------------------
+*/
+
+.vrh
+{
+  height: 80px;
+  padding: 40px 20px 40px 20px;
+  width: calc(100% - 40px);
+}
+
+.vrh .logo
+{
+  display: inline-block;
+  font-size: 0px;
+}
+
+.vrh .logo img
+{
+  height: 80px;
+  width: 320px;
+}
+
+.vrh .mobilni-alati
+{
+  display: block;
+  float: right;
+  font-size: 0px;
+  width: 200px;
+}
+
+.vrh .mobilni-jezici
+{
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+}
+
+.vrh .mobilni-meni
+{
+  display: inline-block;
+}
+
+.vrh ul
+{
+  display: none;
+}
+
+.pocetna .padajuci-meni
+{
+  background-color: #202020;
+  display: none;
+  font-size: 44px;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.pocetna .padajuci-meni li
+{
+  color: #ffffff;
+  padding: 30px 0px 30px 0px;
+}
+
+.pocetna .padajuci-jezici
+{
+  background-color: #202020;
+  display: none;
+  font-size: 44px;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.pocetna .padajuci-jezici li
+{
+  color: #ffffff;
+  padding: 30px 0px 30px 0px;
+}
+
+.pocetna .prezentacija
+{
+  display: table;
+  height: calc(100vh - 560px);
+  width: 100%;
+}
+
+.pocetna .prezentacija .naslov
+{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.pocetna .prezentacija .naslov h1
+{
+  font-size: 44px;
+  margin: 0px 0px 40px 0px;
+  padding: 50px 0px 0px 0px;
+  text-align: center;
+}
+
+.pocetna .prezentacija .naslov h2
+{
+  font-size: 30px;
+  margin: 0px 0px 50px 0px;
+  text-align: center;
+}
+
+.pocetna .prezentacija .naslov .dugmad
+{
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+}
+
+.pocetna .prezentacija .naslov .dugmad .dugme div
+{
+  background-color: #ffa800;
+  box-shadow: 2px 2px 2px #222222;
+  color: #ffffff;
+  display: table;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 30px auto 0px auto;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  width: 500px;
+}
+
+.pocetna .prezentacija .naslov .dugmad .dugme:first-child div
+{
+  margin: 0px auto 0px auto;
+}
+
+.pocetna .traka-donacija
+{
+  background-image: url("/slike/svg/slojevi.svg");
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  height: 400px;
+  width: 100%;
+}
+
+.pocetna .traka-donacija .pozadina
+{
+  background-color: #f48400;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  height: 150px;
+  margin: 0px 20px 0px 20px;
+  width: calc(100% - 40px);
+}
+
+.pocetna .traka-donacija .traka
+{
+  height: 100px;
+  padding: 20px 0px 30px 0px;
+  width: 100%;
+}
+.pocetna .traka-donacija .traka .opis
+{
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0px 0px 10px 5%;
+}
+
+.pocetna .traka-donacija .traka .postotak
+{
+  -moz-animation-name: animacijaPostotak2x;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: animacijaPostotak2x;
+  -o-animation-duration: 1s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  -webkit-animation-name: animacijaPostotak2x;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: animacijaPostotak2x;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: #00dd00;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.4)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.4)), color-stop(0.75, rgba(255, 255, 255, 0.4)), color-stop(0.75, transparent), to(transparent));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+  background-size: 60px 60px;
+  border-radius: 5px;
+  height: 60px;
+  margin: 0px 5% 0px 5%;
+  position: relative;
+  width: 90%;
+}
+
+.pocetna .traka-donacija .traka .postotak .punjenje
+{
+  -moz-animation-name: animacijaPostotak2x;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: animacijaPostotak2x;
+  -o-animation-duration: 1s;
+  -o-animation-timing-function: linear;
+  -o-animation-iteration-count: infinite;
+  -webkit-animation-name: animacijaPostotak2x;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: animacijaPostotak2x;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-color: #0077ff;
+  background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+  background-size: 60px 60px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-right: 2px solid #ffffff;
+  display: inline-block;
+  height: 100%;
+  width: 2%;
+}
+
+.pocetna .traka-donacija .traka .postotak .veza
+{
+  color: #ffffff;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 10px 0px 0px 0px;
+  text-align: center;
+  text-shadow: 1px 1px #18bf14, 1px -1px #18bf14, -1px -1px #18bf14, -1px 1px #18bf14;
+  vertical-align: top;
+  width: calc(98% - 12px);
+}
+
+.pocetna .o-projektu
+{
+  background-color: rgb(255, 136, 0);
+  border-bottom: 20px solid #ff4700;
+  color: #ffffff;
+  min-height: 400px;
+  text-align: center;
+}
+
+.pocetna .o-projektu .panel     
+{
+  width: 100%;
+}
+
+.pocetna .o-projektu .panel:nth-child(2)
+{
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 4px inset #222222;
+}
+
+.pocetna .o-projektu .panel:nth-child(3)
+{
+  border-top: 4px solid rgba(255, 255, 255, 0.1);
+}
+
+.pocetna .o-projektu h2
+{
+  font-size: 42px;
+  margin: 0px 0px 40px 0px;
+  padding: 60px 0px 0px 0px;
+}
+
+.pocetna .o-projektu p
+{
+  display: table;
+  font-size: 32px;
+  font-weight: normal;
+  margin: 0px auto 0px auto;
+  padding: 0px 0px 80px 0px;
+  text-align: justify;
+  width: 800px;
+}
+
+.pocetna .o-projektu .rucica
+{
+  background-image: url("/slike/svg/rucica.svg");
+  background-size: 220px 220px;
+  height: 220px;
+  margin: 0px auto -120px auto;
+  position: relative;
+  width: 220px;
+}
+
+.pocetna .kako-poceti
+{
+  background-image: url("/slike/svg/loptice.svg");
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: 80px 40px;
+  padding: 120px 0px 80px 0px;
+}
+
+.pocetna .kako-poceti h2
+{
+  color: #444444;
+  font-size: 62px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.pocetna .kako-poceti .panel
+{
+  border: 4px dashed #eeeeee;
+  display: table;
+  margin: 20px auto 50px auto;
+  padding: 0px 5px 0px 5px;
+  width: 840px;
+}
+
+.pocetna .kako-poceti .panel p
+{
+  display: table;
+  font-size: 30px;
+  line-height: 40px;
+  margin: auto 0px auto 0px;
+  padding: 50px 25px 20px 25px;
+  text-align: justify;
+}
+
+.pocetna .kako-poceti .panel div p
+{
+  display: table;
+  font-size: 30px;
+  line-height: 40px;
+  margin: auto 0px auto 0px;
+  padding: 20px 25px 50px 25px;
+  text-align: justify;
+}
+
+.pocetna .kako-poceti .panel div .slika
+{
+  background-image: url("/slike/svg/veze.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin: 20px calc(50% - 200px) 20px calc(50% - 200px);
+  height: 200px;
+  width: 400px;
+}
+
+.pocetna .kako-poceti > h3
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+.pocetna .kako-poceti .novcanici
+{
+  border-collapse: separate;
+  border-spacing: 20px;
+  display: table;
+  margin: 0px auto 50px auto;
+}
+
+.pocetna .kako-poceti .novcanici > h3
+{
+  font-size: 22px;
+}
+
+.pocetna .kako-poceti .novcanici .windows,
+.pocetna .kako-poceti .novcanici .linux
+{
+  display: table-cell;
+  padding: 50px 0px 50px 0px;
+  text-align: center;
+  width: 400px;
+}
+
+.pocetna .kako-poceti .novcanici .windows
+{
+  background-color: rgba(60, 60, 255, 0.6);
+  border: 2px solid rgba(60, 60, 255, 0.8);
+  box-shadow: 2px 2px 2px rgb(0, 0, 195);
+}
+
+.pocetna .kako-poceti .novcanici .windows .logo
+{
+  background-image: url("/slike/svg/windows.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin: 0px 50px 0px 50px;
+  width: 300px;
+}
+
+.pocetna .kako-poceti .novcanici .linux
+{
+  background-color: rgba(180, 0, 160, 0.6);
+  border: 2px solid rgba(180, 0, 160, 0.8);
+  box-shadow: 2px 2px 2px rgb(100, 0, 100);
+}
+
+.pocetna .kako-poceti .novcanici .linux .logo
+{
+  background-image: url("/slike/svg/linux.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  margin: 0px 50px 0px 50px;
+  width: 300px;
+}
+
+.pocetna .kako-poceti .novcanici .windows h3,
+.pocetna .kako-poceti .novcanici .linux h3
+{
+  color: #ffffff;
+  font-size: 48px;
+  margin: 20px 0px 10px 0px;
+}
+
+.pocetna .kako-poceti .novcanici .windows p,
+.pocetna .kako-poceti .novcanici .linux p
+{
+  //border: 2px solid #ffffff;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+}
+
+.pocetna .kako-poceti .novcanici .windows p a,
+.pocetna .kako-poceti .novcanici .linux p a
+{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.dobiti-dinare
+{
+  background-color: #fd8700;
+  padding: 0px 0px 50px 0px;
+  width: 100%;
+}
+
+.dobiti-dinare > h2
+{
+  color: #ffffff;
+  font-size: 38px;
+  margin: 0px 0px 0px 0px;
+  padding: 40px 0px 40px 0px;
+  text-align: center;
+}
+
+.dobiti-dinare > h3
+{
+  color: #ffffff;
+  display: table;
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0px auto 0px auto;
+  text-align: justify;
+  width: 800px;
+}
+
+.dobiti-dinare > h3 a
+{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.dobiti-dinare .kopanje h2
+{
+  color: #ffffff;
+  font-size: 32px;
+  margin: 0px 0px 0px 0px;
+  padding: 60px 0px 40px 0px;
+  text-align: center;
+}
+
+.dobiti-dinare .kopanje h3
+{
+  color: #ffffff;
+  display: table;
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0px auto 0px auto;
+  text-align: justify;
+  width: 800px;
+}
+
+.dobiti-dinare .kopanje .rudari
+{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  display: table;
+  margin: 100px auto 100px auto;
+  width: 800px;
+}
+
+.dobiti-dinare .kopanje .rudari .naslov
+{
+  color: #fd8700;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 100px;
+  margin: 0px 0px 10px 35px;
+}
+
+.dobiti-dinare .kopanje .rudari .pocetnici
+{
+  margin: 0px 0px 100px 0px;
+}
+
+.dobiti-dinare .kopanje .rudari .opis
+{
+  color: #fd8700;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 30px 0px 30px 35px;
+}
+
+.dobiti-dinare .kopanje .rudari .rudar
+{
+  margin: 20px 25px 50px 25px;
+  text-align: center;
+  width: 748px;
+}
+
+.dobiti-dinare .kopanje .rudari .rudar--cpu
+{
+  background-color: rgba(60, 60, 255, 0.6);
+  border: 2px solid rgba(40, 40, 255, 0.8);
+}
+
+.dobiti-dinare .kopanje .rudari .rudar--amd
+{
+  background-color: rgba(255, 40, 40, 0.8);
+  border: 2px solid rgba(225, 0, 0, 1.0);
+}
+
+.dobiti-dinare .kopanje .rudari .rudar--nvidia
+{
+  background-color: rgba(40, 255, 40, 0.8);
+  border: 2px solid rgba(0, 200, 0, 1.0);
+}
+
+.dobiti-dinare .kopanje .rudari .rudar .vrsta
+{
+  color: #ffffff;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 200px;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.pocetna > .kraj
+{
+  background-color: #202020;
+  border-top: 2px solid #444444;
+  //box-shadow: 0px -2px 2px rgba(0, 0, 0, 0.5);
+  height: 100px;
+  width: 100%;
+}
+
+.pocetna > .kraj .autorsko-pravo
+{
+  color: #ffffff;
+  font-size: 32px;
+  margin: 0px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+@media only screen and (min-device-width: 850px)
+{
+  body
+  {
+    min-width: 900px;
+  }
+
+  .vrh
+  {
+    height: 40px;
+    padding: 10px 20px 10px 20px;
+    width: calc(100% - 40px);
+  }
+
+  .vrh .logo img
+  {
+    height: 40px;
+    width: 160px;
+  }
+
+  .vrh .mobilni-jezici,
+  .vrh .mobilni-meni
+  {
+    display: none;
+  }
+
+  .vrh ul
+  {
+    display: block;
+    float: right;
+    line-height: 30px;
+    list-style-type: none;
+    margin: 5px 0px 5px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .vrh ul li
+  {
+    color: #3f3f3f;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 0px 0px 0px 20px;
+  }
+
+  .vrh ul a:first-child li
+  {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .pocetna .prezentacija
+  {
+    height: calc(100vh - 260px);
+    width: 100%;
+  }
+
+  .pocetna .prezentacija .naslov h1
+  {
+    font-size: 32px;
+    margin: 0px 0px 20px 0px;
+    padding: 50px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .pocetna .prezentacija .naslov h2
+  {
+    font-size: 24px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+  }
+
+  .pocetna .prezentacija .naslov .dugmad .dugme div
+  {
+    background-color: #ffa800;
+    box-shadow: 2px 2px 2px #222222;
+    color: #ffffff;
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 20px 10px 20px;
+    width: auto;
+  }
+  
+  .pocetna .prezentacija .naslov .dugmad .dugme:first-child div
+  {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .pocetna .traka-donacija
+  {
+    height: 200px;
+    width: 100%;
+  }
+
+  .pocetna .traka-donacija .pozadina
+  {
+    background-color: #f48400;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    height: 75px;
+    margin: 0px calc(50% - 400px) 0px calc(50% - 400px);
+    width: 800px;
+  }
+
+  .pocetna .traka-donacija .traka
+  {
+    height: 50px;
+    padding: 10px 0px 15px 0px;
+  }
+
+  .pocetna .traka-donacija .traka .opis
+  {
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0px 0px 5px 5%;
+  }
+
+  .pocetna .traka-donacija .traka .postotak
+  {
+    -moz-animation-name: animacijaPostotak;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: animacijaPostotak;
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-name: animacijaPostotak;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: animacijaPostotak;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: #00ff00;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.75, transparent), to(transparent));
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-position: 2px 0px;
+    background-size: 30px 30px;
+    height: 30px;
+  }
+
+  .pocetna .traka-donacija .traka .postotak .punjenje
+  {
+    -moz-animation-name: animacijaPostotak;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: animacijaPostotak;
+    -o-animation-duration: 1s;
+    -o-animation-timing-function: linear;
+    -o-animation-iteration-count: infinite;
+    -webkit-animation-name: animacijaPostotak;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: animacijaPostotak;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: #0077ff;
+    background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(0.25, rgba(255, 255, 255, 0.2)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.2)), color-stop(0.75, rgba(255, 255, 255, 0.2)), color-stop(0.75, transparent), to(transparent));
+    background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
+    background-size: 30px 30px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: 2px solid #ffffff;
+    display: inline-block;
+    height: 100%;
+    width: 2%;
+  }
+
+  .pocetna .traka-donacija .traka .postotak .veza
+  {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 5px 0px 0px 0px;
+  }
+
+  .pocetna .o-projektu
+  {
+    border-bottom: 10px solid #ff4700;
+  }
+
+  .pocetna .o-projektu .panel:nth-child(2)
+  {
+    box-shadow: 0px 2px 2px inset #222222;
+  }
+
+  .pocetna .o-projektu .panel:nth-child(3)
+  {
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .pocetna .o-projektu h2
+  {
+    font-size: 34px;
+    margin: 0px 0px 20px 0px;
+    padding: 40px 0px 0px 0px;
+  }
+
+  .pocetna .o-projektu p
+  {
+    color: #ffebd4;
+    display: table;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 40px 0px;
+    text-align: justify;
+    width: 800px;
+  }
+
+  .pocetna .o-projektu .rucica
+  {
+    background-size: 110px 110px;
+    height: 110px;
+    margin: 0px auto -60px auto;
+    width: 110px;
+  }
+
+  .pocetna .kako-poceti
+  {
+    padding-top: 80px;
+  }
+
+  .pocetna .kako-poceti h2
+  {
+    color: #222222;
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .pocetna .kako-poceti .panel
+  {
+    margin: 20px auto 20px auto;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .pocetna .kako-poceti .panel > p
+  {
+    font-size: 18px;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+    width: 100%;
+  }
+
+  .pocetna .kako-poceti .panel > div
+  {
+    display: table;
+    width: 100%;
+  }
+
+  .pocetna .kako-poceti .panel > div .slika   
+  {
+    background-image: url("/slike/svg/veze.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: table-cell;
+    height: auto;
+    margin: auto;
+    width: 20%;
+  }
+
+  .pocetna .kako-poceti .panel > div p   
+  {
+    display: table-cell;
+    font-size: 18px;
+    padding: 10px 0px 10px 10px;
+    width: 80%;
+  }
+
+  .pocetna .kako-poceti > h3
+  {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .pocetna .kako-poceti .novcanici .windows,
+  .pocetna .kako-poceti .novcanici .linux
+  {
+    display: table-cell;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    width: 400px;
+  }
+
+  .dobiti-dinare > h3
+  {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .dobiti-dinare .kopanje h3
+  {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .dobiti-dinare .kopanje .rudari
+  {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+    display: table;
+    margin: 50px auto 50px auto;
+    width: 650px;
+  }
+
+  .dobiti-dinare .kopanje .rudari .naslov
+  {
+    color: #fd8700;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0px 0px 10px 35px;
+  }
+
+  .dobiti-dinare .kopanje .rudari .pocetnici
+  {
+    margin: 0px 0px 50px 0px;
+  }
+
+  .dobiti-dinare .kopanje .rudari .opis
+  {
+    color: #fd8700;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px 10px 35px;
+  }
+
+  .dobiti-dinare .kopanje .rudari .rudar
+  {
+    margin: 10px 25px 10px 25px;
+    text-align: center;
+    width: 648px;
+  }
+
+  .dobiti-dinare .kopanje .rudari .rudar--cpu
+  {
+    background-color: rgba(60, 60, 255, 0.6);
+    border: 2px solid rgba(40, 40, 255, 0.8);
+  }
+
+  .dobiti-dinare .kopanje .rudari .rudar--amd
+  {
+    background-color: rgba(255, 40, 40, 0.8);
+    border: 2px solid rgba(225, 0, 0, 1.0);
+  }
+
+  .dobiti-dinare .kopanje .rudari .rudar--nvidia
+  {
+    background-color: rgba(40, 255, 40, 0.8);
+    border: 2px solid rgba(0, 200, 0, 1.0);
+  }
+
+  .dobiti-dinare .kopanje .rudari .rudar .vrsta
+  {
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 72px;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .pocetna > .kraj .autorsko-pravo
+  {
+    font-size: 16px;
+    padding: 20px 0px 20px 0px;
+  }
+}
