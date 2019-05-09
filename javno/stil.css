@@ -709,6 +709,62 @@ a:visited
   text-align: center;
 }
 
+.pocetna > .kraj .table
+{
+  border-spacing: 20px;
+  display: table;
+  margin: 20px auto 0px auto;
+  padding: 0px 0px 0px 0px;
+  table-layout: auto;
+  width: 80%;
+}
+
+.pocetna > .kraj .table .tabla
+{
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow: inset 1px 1px rgba(0, 0, 0, 0.2);
+  display: table-row;
+  text-align: left;
+  width: 100%;
+}
+
+.pocetna > .kraj .table .tabla h2
+{
+  font-size: 36px;
+  margin: 14px 0px 14px 225px;
+}
+
+.pocetna > .kraj .table .tabla ul
+{
+  list-style-type: square;
+  margin: 0px 0px 20px 245px;
+  padding: 0px 0px 0px 0px;
+}
+
+.pocetna > .kraj .table .tabla ul li
+{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 22px;
+  position: relative;
+  margin: 0px 0px 0px 0px;
+}
+
+.pocetna > .kraj .table .tabla ul li a:active,
+.pocetna > .kraj .table .tabla ul li a:hover,
+.pocetna > .kraj .table .tabla ul li a:link,
+.pocetna > .kraj .table .tabla ul li a:visited
+{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.pocetna > .kraj .table .tabla ul li i
+{
+  font-size: 22px;
+  position: relative;
+  top: 0px;
+}
+
 @media only screen and (min-device-width: 850px)
 {
   body
@@ -1086,5 +1142,58 @@ a:visited
   {
     font-size: 16px;
     padding: 20px 0px 20px 0px;
+  }
+
+  .pocetna > .kraj .table
+  {
+    border-spacing: 20px;
+    display: table;
+    margin: 0px 10% 0px 10%;
+    table-layout: fixed;
+    width: 80%;
+  }
+
+  .pocetna > .kraj .table .tabla
+  {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.2);
+    display: table-cell;
+    text-align: left;
+    width: 100%;
+  }
+
+  .pocetna > .kraj .table .tabla h2
+  {
+    font-size: 16px;
+    margin: 5px 0px 0px 10px;
+  }
+
+  .pocetna > .kraj .table .tabla ul
+  {
+    list-style-type: square;
+    margin: 10px 0px 10px 25px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .pocetna > .kraj .table .tabla ul li
+  {
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .pocetna > .kraj .table .tabla ul li a:active,
+  .pocetna > .kraj .table .tabla ul li a:hover,
+  .pocetna > .kraj .table .tabla ul li a:link,
+  .pocetna > .kraj .table .tabla ul li a:visited
+  {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+
+  .pocetna > .kraj .table .tabla ul li i
+  {
+    font-size: 10px;
+    top: -2px;
   }
 }
