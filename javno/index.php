@@ -1,3 +1,4 @@
+<?php include("uključi/statistike.php"); ?>
 <!DOCTYPE html>
 <html lang="sh">
 <head>
@@ -253,6 +254,54 @@
 
  <div class="kraj">
   <p class="autorsko-pravo">&copy; Za&#353;tita autorskog prava vDinar.info 2018-2019</p>
+
+  <div class="table">
+
+   <div class="tabla">
+    <h2>Kontakti</h2>
+    <ul>
+     <li>
+      kontakti@vdinar.info
+     </li>
+     <li>
+      pomoc@vdinar.info
+     </li>
+    </ul>
+   </div>
+
+   <div class="tabla">
+    <h2>Usluge</h2>
+    <ul>
+     <li>
+      <a href="https://pro.vdinar.info" target="_blank">vDinar za programere</a>
+     </li>
+     <li>
+      <a href="https://www.vdinar.info/viki" target="_blank">vDinar Viki</a>
+     </li>
+     <li>
+      <a href="https://vdinar.jugoslaven.com/en/wallet" target="_blank">Mre&#382;ni nov&#269;anik</a>
+     </li>
+    </ul>
+   </div>
+
+   <div class="tabla">
+    <h2>Mediji</h2>
+    <ul>
+     <li>
+      <a href="https://t.me/vdinar" target="_blank">Telegram</a>
+      <i>(@vDinar)</i>
+     </li>
+     <li>
+      <a href="https://twitter.com/virtualniDinar" target="_blank">Twitter</a>
+      <i>(@virtualniDinar)</i>
+     </li>
+     <li>
+      <a href="https://www.facebook.com/vDinar" target="_blank">Facebook</a>
+     </li>
+    </ul>
+   </div>
+
+  </div>
  </div>
 </div>
 
