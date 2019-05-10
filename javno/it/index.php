@@ -255,6 +255,54 @@
 
  <div class="kraj">
   <p class="autorsko-pravo">&copy; Tutelato dai diritti d'autore di vDinar.info 2018-2019</p>
+
+  <div class="table">
+
+   <div class="tabla">
+    <h2>Contatti</h2>
+    <ul>
+     <li>
+      contatti@vdinar.info
+     </li>
+     <li>
+      supporto@vdinar.info
+     </li>
+    </ul>
+   </div>
+
+   <div class="tabla">
+    <h2>Servizi</h2>
+    <ul>
+     <li>
+      <a href="https://pro.vdinar.info" target="_blank">vDinar per programmatori</a>
+     </li>
+     <li>
+      <a href="https://www.vdinar.info/viki" target="_blank">vDinar Wiki</a>
+     </li>
+     <li>
+      <a href="https://vdinar.jugoslaven.com/en/wallet" target="_blank">Portafoglio web</a>
+     </li>
+    </ul>
+   </div>
+
+   <div class="tabla">
+    <h2>Media</h2>
+    <ul>
+     <li>
+      <a href="https://t.me/vdinar" target="_blank">Telegram</a>
+      <i>(@vDinar)</i>
+     </li>
+     <li>
+      <a href="https://twitter.com/virtualniDinar" target="_blank">Twitter</a>
+      <i>(@virtualniDinar)</i>
+     </li>
+     <li>
+      <a href="https://www.facebook.com/vDinar" target="_blank">Facebook</a>
+     </li>
+    </ul>
+   </div>
+
+  </div>
  </div>
 </div>
 
